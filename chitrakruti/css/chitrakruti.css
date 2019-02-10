@@ -1,0 +1,22 @@
+body
+{
+background-color:lightblue;
+font-family:chiller;
+font-size:40px
+}
+
+h1{
+color: red;
+text-align:center;
+}
+
+table{
+background-color:white;
+height:1000px;
+width:1200px;
+text-align:center;
+}
+
+.a{
+background-color:grey;
+}
