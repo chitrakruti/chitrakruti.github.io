@@ -1,0 +1,70 @@
+body
+{
+
+
+}
+
+h1{
+color: red;
+font-family:chiller;
+font-size:80px;
+text-align:center;
+}
+
+.tab{
+background-color:white;
+height:1000px;
+width:1200px;
+text-align:center;
+border-spacing:10px;
+}
+
+.tab2{
+height:200px;
+width:400px;
+text-align:center;
+
+}
+
+.a{
+background-color:grey;
+text-align:center;
+height:90px;
+width:1300px;
+}
+
+.footer{
+background-color:yellow;
+color:red;
+font-family:verdana;
+font-size:20px;
+}
+
+.form{
+font-family:Times New Roman;
+}
+
+.fs{
+border: 2px solid red;
+border-radius: 4px;
+width:500px;
+
+}
+
+.legend{
+font-size:50px;
+color:green;
+}
+.button{
+background-color:green;
+display:green;
+height:30px;
+width:100px;
+}
+
+inupt[type=text]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
