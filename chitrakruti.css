@@ -16,7 +16,7 @@ background-color:white;
 height:auto;
 width:auto;
 text-align:center;
-border-spacing:10px;
+border-spacing:20px;
 }
 
 .tab2{
@@ -27,11 +27,13 @@ text-align:center;
 }
 
 .a{
-background-color:grey;
+background-image: linear-gradient(to right, skyblue , green);
 text-align:center;
 height:90px;
 width:auto;
-
+border-radius: 25px;
+ 
+  
 }
 
 .footer{
