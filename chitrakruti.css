@@ -86,7 +86,7 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: black;
-position: sticky;
+position: fixed;
 top: 110;
 width: 100%;
 }
