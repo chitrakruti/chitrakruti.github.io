@@ -11,16 +11,17 @@ width:auto;
 
 
 .para{
-color:black;
+color:white;
 height:1000px;
 width:auto;
 font-size:30px;
 background-image: url("picofhuman.jpg");
-opacity: 0.5; 
+opacity: 0.9; 
 filter: alpha(opacity=50);
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 
 h1{
 color: red;
@@ -38,15 +39,24 @@ border-spacing:20px;
 }
 
 img{
+    
 border-radius: 20px;
-background-size: 100%;
+max-width: 100%;
+height: auto;
+   
 }
+
+.images{
+align-content: center; 
+align-items: baseline;
+align-self: baseline;
+}
+
 
 .tab2{
 height:auto;
 width:auto;
 text-align:center;
-
 }
 
 .a{
@@ -62,6 +72,8 @@ border-radius: 25px;
 .footer{
 background-color:yellow;
 color:red;
+height:100px;
+width:auto;    
 font-family:verdana;
 font-size:20px;
 }
@@ -84,13 +96,15 @@ color:green;
 
 
 .button{
-background-color:skyblue;
+background:skyblue;
 display:inline-block;
 height:30px;
 width:100px;
 border-radius: 10px;
-color
-font-family:Times New Roman;}
+color:black;
+
+font-family:Times New Roman;
+}
 
 .input[type=text]{
 width: 100%;
@@ -103,7 +117,7 @@ border-radius: 4px;
 
 
 
-ul {
+ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -111,16 +125,14 @@ overflow: hidden;
 background-color: black;
 position: relative;
 top: 5;
-width: auto;
+width: 100%;
 }
-
 
 li{
 float: left;
 text-align: center;
 border-bottom: 1px solid #555;
 font-size:25px;
-    
 }
 
 
@@ -132,11 +144,67 @@ li a{
   text-decoration: none;
 }
 
-li a:hover {
+.list .anchor:hover {
 background-color:#c1c1a4;	
 color: red;
 cursor: pointer;
 }
 
 
+
+@media screen and (max-width: 480px) {
+    
+    
+    
+    .shadow
+    {
+    position: relative;
+    margin: 50px auto 0;
+    width: auto;
+    font-size: 20px;
+    }
+	.menu-trigger {
+		display: block;
+		color: #305782;
+		background-color: #d5dce4;
+		padding: 10px;
+		text-align: right;
+		font-size: 83%;
+		cursor: pointer;
+	}
+	
+	
+	div.nav-expanded {
+		display: block;
+	}
+	
+	div.nav-menu ul li {
+		float: none;
+		border-bottom: 2px solid #d5dce4;
+	}
+	
+	div.nav-menu ul li:last-child {
+		border-bottom: none;
+	}
+    
+    #ul{
+    width: 150px;
+}
+	
+}
+
+@media screen and (max-width: 600px )
+{
+   #ul
+    {
+        width: 100%;
+    }
+    .shadow
+    {
+    position: relative;
+    margin: 50px auto 0;
+    width: auto;
+    font-size: 50px;
+    }
+}
 
