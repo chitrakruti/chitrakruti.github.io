@@ -125,7 +125,7 @@ overflow: hidden;
 background-color: black;
 position: relative;
 top: 5;
-width: 100%;
+width: auto;
 }
 
 li{
