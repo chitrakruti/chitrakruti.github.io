@@ -124,7 +124,7 @@ padding: 0;
 overflow: hidden;
 background-color: black;
 position: relative;
-top: 20;
+top: 5;
 width: 100%;
 }
 
@@ -144,7 +144,7 @@ li a{
   text-decoration: none;
 }
 
-.list .anchor:hover {
+li a:hover {
 background-color:#c1c1a4;	
 color: red;
 cursor: pointer;
@@ -181,8 +181,8 @@ cursor: pointer;
 		border-bottom: none;
 	}
     
-    #ul{
-    width: 250px;
+    ul{
+    width: 150px;
     }
     
     
@@ -191,7 +191,7 @@ cursor: pointer;
 
 @media screen and (max-width: 600px )
 {
-   #ul
+   ul
     {
         width: 100%;
     }

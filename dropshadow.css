@@ -10,10 +10,10 @@ background: grey;
   
     position: relative;
     margin: 50px auto 0;
-    width: 1300px;
-    height: 150px;
+    width: 1340;
+    height: 139px;
     background: linear-gradient(0deg,#000,#262626);
-    border-radius: 30px; 
+     
     
 }
 
@@ -58,8 +58,8 @@ background: grey;
 .text
 {
     color: aliceblue;
-    background: linear-gradient(black,red);
-    font-size: 130px;
+    background: linear-gradient(blue,white);
+    font-size: 120px;
     text-align: center;
     font-family: chiller;
     
