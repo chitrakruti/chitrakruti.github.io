@@ -10,10 +10,10 @@ background: grey;
   
     position: relative;
     margin: 50px auto 0;
-    width: auto;
+    width: 1300px;
     height: 150px;
     background: linear-gradient(0deg,#000,#262626);
-    border-radius: 50%; 
+    border-radius: 30px; 
     
 }
 
