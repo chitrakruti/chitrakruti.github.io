@@ -1,0 +1,47 @@
+td{
+    
+   
+height: auto;
+width: auto;     
+    
+}
+
+body
+{
+color: red;
+}
+
+.text
+{
+    color:orangered;
+    background: linear-gradient(blue,white);
+    font-size: 50px;
+    text-align: center;
+    font-family: chiller;
+    
+}
+
+.shadow
+{
+  
+    position: relative;
+    margin: 50px auto 0;
+    width: auto;
+    height: 33px;
+    background: linear-gradient(0deg,#000,#262626);
+     
+    
+}
+
+ul{
+color: aliceblue;
+
+}
+
+li{
+float: left;
+text-align: center;
+border-bottom: 1px solid #555;
+font-size:15px;
+width: 1005px;
+}
