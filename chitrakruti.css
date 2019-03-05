@@ -1,7 +1,9 @@
 body{
 margin: 0 auto;
-
+width: 100%;
 }
+
+
 .header
 {
 font-family:verdana;
@@ -16,8 +18,8 @@ width:auto;
 
 .para{
 color:white;
-height:1000px;
-width:auto;
+height:100%;
+width:100%;
 font-size:30px;
 background-image: url("picofhuman.jpg");
 opacity: 0.9; 
@@ -26,10 +28,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 1998ac9c869608f057a4774b601913f7bc90fe54
 h1{
 color: red;
 font-family:chiller;
@@ -46,11 +45,9 @@ border-spacing:20px;
 }
 
 img{
-    
+height: 350px;
+width: 350px;
 border-radius: 20px;
-max-width: 100%;
-height: auto;
-   
 }
 
 .images{
@@ -77,7 +74,7 @@ border-radius: 25px;
 }
 
 .footer{
-background-color:yellow;
+background-color:skyblue;
 color:red;
 height:100px;
 width:auto;    
@@ -191,7 +188,13 @@ cursor: pointer;
     ul{
     width: 150px;
     }
-    
+li a{
+
+	width:25%;
+
+
+}
+
     
 	
 }
