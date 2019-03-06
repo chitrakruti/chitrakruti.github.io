@@ -1,3 +1,9 @@
+body{
+margin: 0 auto;
+width: 100%;
+}
+
+
 .header
 {
 font-family:verdana;
@@ -12,8 +18,8 @@ width:auto;
 
 .para{
 color:white;
-height:1000px;
-width:auto;
+height:100%;
+width:100%;
 font-size:30px;
 background-image: url("picofhuman.jpg");
 opacity: 0.9; 
@@ -39,11 +45,9 @@ border-spacing:20px;
 }
 
 img{
-    
+height: 350px;
+width: 350px;
 border-radius: 20px;
-max-width: 100%;
-height: auto;
-   
 }
 
 .images{
@@ -70,9 +74,9 @@ border-radius: 25px;
 }
 
 .footer{
-background-color:yellow;
+background-color:skyblue;
 color:red;
-height:100px;
+height:200px;
 width:auto;    
 font-family:verdana;
 font-size:20px;
@@ -150,9 +154,13 @@ color: red;
 cursor: pointer;
 }
 
+.shadow
+    {
+        widows: 100%;
+    }
 
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 260px) {
     
     
     
@@ -185,11 +193,15 @@ cursor: pointer;
     width: 150px;
     }
     
+    li a{
+	width:25%;
+    }
+
     
 	
 }
 
-@media screen and (max-width: 600px )
+@media screen and (max-width: 260px )
 {
    ul
     {
