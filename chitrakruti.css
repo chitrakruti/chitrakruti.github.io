@@ -154,9 +154,13 @@ color: red;
 cursor: pointer;
 }
 
+.shadow
+    {
+        widows: 100%;
+    }
 
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 260px) {
     
     
     
@@ -188,18 +192,16 @@ cursor: pointer;
     ul{
     width: 150px;
     }
-li a{
-
+    
+    li a{
 	width:25%;
-
-
-}
+    }
 
     
 	
 }
 
-@media screen and (max-width: 600px )
+@media screen and (max-width: 260px )
 {
    ul
     {
